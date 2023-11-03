@@ -1,13 +1,10 @@
 package courier_model;
 
-private String login;
-private String password;
-private String firstName;
 public class Courier {
-
-    private final String login;
-    private final String firstName;
+    private String login;
     private String password;
+    private String firstName;
+
 
     public Courier() {
         }

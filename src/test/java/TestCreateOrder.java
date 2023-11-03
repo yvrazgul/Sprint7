@@ -16,7 +16,6 @@ import static org.junit.Assert.assertTrue;
     @RunWith(Parameterized.class)
     public class TestCreateOrder {
         private final String[] color;
-        private final boolean orderIsCreated;
         private OrderApiClient orderCreate;
         private OrderRequest orderRequest;
         private int orderTrack;
@@ -24,7 +23,6 @@ import static org.junit.Assert.assertTrue;
 
         public TestCreateOrder(String[] color, boolean orderIsCreated) {
             this.color = color;
-            this.orderIsCreated = orderIsCreated;
         }
 
         @Parameterized.Parameters()
